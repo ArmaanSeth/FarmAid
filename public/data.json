@@ -1,0 +1,192 @@
+[[{"name":"Orange","content":"Oranges are citrus fruits known for their high vitamin C content. They are juicy and have a sweet-tart flavor. Oranges are also a good source of dietary fiber and contain antioxidants. Many farmers cultivate oranges in orchards and sell them in local markets or supply them to juice production companies.","img":"0.jpg"},{"name":"Blackgram","content":"Blackgram, also known as urad dal, is a popular pulse crop rich in protein and used in various culinary preparations. It is commonly used in making dal and other Indian dishes. Many farmers grow blackgram as a cash crop due to its high demand and profitability. Blackgram requires well-drained soil and a warm climate to thrive.","img":"1.jpg"},{"name":"Kidneybeans","content":"Kidney beans are a type of legume known for their kidney-like shape. They are an excellent source of plant-based protein and fiber. Kidney beans are commonly used in dishes like chili and soups. Farmers who cultivate kidney beans benefit from their nutritional value and market demand.","img":"2.jpg"},{"name":"Banana","content":"Bananas are tropical fruits known for their rich potassium content and natural sweetness. They are a staple food for many people and widely consumed worldwide. Farmers involved in banana cultivation need to provide the right growing conditions such as warm climate, well-drained soil, and adequate sunlight.","img":"3.jpg"},{"name":"Pomegranate","content":"Pomegranates are known for their vibrant red color, delicious seeds, and high antioxidant content. They are considered a superfood and widely enjoyed for their refreshing taste. Cultivating pomegranate trees can be a rewarding endeavor for farmers. These trees require well-drained soil, sufficient water, and full sunlight.","img":"4.jpg"},{"name":"Apple","content":"Apples are one of the most popular and widely consumed fruits globally. They come in a variety of flavors and colors. Apples are rich in fiber, antioxidants, and vitamins. Farmers who cultivate apple trees need to consider the appropriate climate and soil conditions for optimal growth.","img":"5.jpg"},{"name":"Watermelon","content":"Watermelons are large, juicy fruits with a high water content, making them refreshing and hydrating. They are popular during hot summer months and are enjoyed for their sweet taste. Watermelon cultivation requires warm weather, well-drained soil, and plenty of sunlight.","img":"6.jpg"},{"name":"Chickpea","content":"Chickpeas, also known as garbanzo beans, are legumes with a nutty flavor and a rich source of protein, fiber, and various minerals. They are commonly used in various cuisines and dishes such as hummus, salads, and curries. Chickpea cultivation requires well-drained soil, moderate water supply, and warm climatic conditions.","img":"7.jpg"},{"name":"Cotton","content":"Cotton is a widely cultivated crop known for its soft, fluffy fibers that are used to make textiles and clothing. Cotton farming requires warm temperatures, sufficient sunlight, and well-drained soil. Farmers need to manage pests, diseases, and weeds to ensure healthy plant growth and maximize fiber production.","img":"8.jpg"},{"name":"Rice","content":"Rice is a staple food for a large portion of the world's population. It is a cereal grain that provides a significant source of carbohydrates. Rice cultivation requires flooded or well-irrigated fields and a warm climate. Farmers need to prepare the fields, control weeds, and manage pests and diseases for a successful rice crop.","img":"9.jpg"},{"name":"Mungbean","content":"Mungbeans, also known as green gram, are a popular pulse crop widely used in Asian cuisines. They are small, green legumes that are rich in protein, fiber, and essential nutrients. Mungbean cultivation requires well-drained soil, warm weather, and moderate rainfall. Farmers need to manage weeds, pests, and diseases to ensure a healthy crop.","img":"10.jpg"},{"name":"Papaya","content":"Papayas are tropical fruits known for their sweet and juicy flesh. They are rich in vitamins, minerals, and antioxidants. Papaya trees require a warm climate, well-drained soil, and ample sunlight. Farmers need to provide regular watering, fertilization, and protection against pests and diseases. Papayas are often sold fresh, used in fruit salads, smoothies, and desserts.","img":"11.jpg"},{"name":"Jute","content":"Jute is a natural fiber derived from the stems of the jute plant. It is commonly used in the production of ropes, bags, and various other products. Jute cultivation requires fertile soil, warm temperatures, and adequate rainfall. Farmers need to carefully manage the growth of jute plants, control weeds, and protect against pests and diseases.","img":"12.jpg"},{"name":"Grapes","content":"Grapes are juicy and sweet fruits that grow on vines. They are widely consumed fresh, used in winemaking, and dried to make raisins. Grape cultivation requires a temperate climate, well-drained soil, and proper trellising systems. Farmers need to manage the growth of grapevines, protect against pests and diseases, and ensure appropriate pruning and harvesting practices. ","img":"13.jpg"},{"name":"Lentil","content":"Lentils are nutritious legumes known for their high protein and fiber content. They come in different colors, including green, brown, and red. Lentils are a staple food in many cultures and commonly used in soups, stews, and salads. Lentil cultivation requires well-drained soil, moderate rainfall, and cool temperatures.","img":"14.jpg"},{"name":"Muskmelon","content":"Muskmelons, also known as cantaloupes, are sweet and fragrant fruits with a juicy flesh and distinctive netted skin. They are popular during the summer season and are consumed fresh or used in fruit salads and desserts. Muskmelons require warm temperatures, well-drained soil, and plenty of sunlight to thrive.","img":"15.jpg"},{"name":"Maize","content":"Maize, also known as corn, is a cereal crop widely cultivated for its edible grains. It is used as animal feed, processed into various food products, and consumed as a staple food in many regions. Maize cultivation requires fertile soil, adequate sunlight, and regular watering. Farmers need to manage pests, diseases, and weeds to ensure a successful maize crop. ","img":"16.jpg"},{"name":"Coffee","content":"Coffee is a popular beverage made from roasted coffee beans. It is grown in various regions around the world and has different flavor profiles based on the growing conditions and processing methods. Coffee cultivation requires specific climatic conditions, including a cool subtropical climate and well-drained soil. ","img":"17.jpg"},{"name":"Mothbeans","content":"Mothbeans, also known as matki or mat bean, are small and creamy-colored legumes commonly used in Indian cuisine. They are rich in protein, dietary fiber, and essential nutrients. Mothbean cultivation requires well-drained soil, warm weather, and moderate rainfall. Farmers need to manage pests, diseases, and weeds to ensure a healthy crop.","img":"18.jpg"},{"name":"Coconut","content":"Coconut trees are tropical palms that produce coconuts, which are widely used for their water, flesh, and oil. Coconuts are a versatile fruit with various culinary and non-culinary applications. Coconut cultivation requires a warm climate, sandy soil, and regular watering. ","img":"19.jpg"},{"name":"Pigeonpeas","content":"Pigeonpeas, also known as arhar or toor dal, are legumes widely consumed in South Asian and African cuisines. They are a good source of protein, dietary fiber, and essential nutrients. Pigeonpea cultivation requires well-drained soil, warm weather, and moderate rainfall. ","img":"20.jpg"},{"name":"Mango","content":"Mangoes are tropical fruits known for their sweet, juicy, and aromatic flesh. They are often referred to as the 'king of fruits' and are highly cherished worldwide. Mango trees require a warm climate, well-drained soil, and plenty of sunlight. Farmers need to provide regular watering, fertilization, and protection against pests and diseases. ","img":"21.jpg"}],
+[{"name":"Urea","image":"0.jpg","content":"Urea is a commonly used nitrogen fertilizer with a high nitrogen content. It is a quick-release fertilizer that provides plants with readily available nitrogen, promoting lush green growth and stimulating protein synthesis."},{"name": "Di-ammonium Phosphate(DPA)","image":"1.jpeg","content":"DAP is a phosphorus-based fertilizer that contains nitrogen and phosphorus. It is widely used for promoting root development, flowering, and fruiting in plants. DAP provides readily available nitrogen and phosphorus, essential nutrients for healthy plant growth."},{"name": "14-35-14","image":"2.jpg","content":"This fertilizer is a balanced ratio fertilizer, consisting of 14% nitrogen (N), 35% phosphorus (P), and 14% potassium (K). It is often used during the early stages of plant growth to encourage root development and improve overall plant vigor."},{ "name":"28-28","image":"3.jpg","content":" This fertilizer has an equal ratio of 28% nitrogen (N) and 28% phosphorus (P). It is commonly utilized for promoting flowering and fruiting in various crops. This balanced fertilizer provides a moderate amount of nitrogen and phosphorus, supporting overall plant growth and development."},{ "name":"17-17-17","image":"4.jpg","content":"The fertilizer with this formulation contains equal proportions of nitrogen (N), phosphorus (P), and potassium (K), all at 17%. It is a well-balanced fertilizer that is suitable for general plant nutrition. It provides essential nutrients for various stages of plant growth, from seedlings to maturity."},{"name": "20-20","image":"5.jpg","content":"This fertilizer has an equal ratio of 20% nitrogen (N) and 20% phosphorus (P). It is often used to maintain overall plant health and vigor. The balanced nutrient composition of this fertilizer promotes root growth, leaf development, and overall plant vitality."}, {"name":"10-26-26","image":"6.jpg","content":" This fertilizer contains 10% nitrogen (N), 26% phosphorus (P), and 26% potassium (K). It is commonly used for promoting flowering and fruit set in plants. The higher phosphorus and potassium content in this fertilizer support reproductive growth, leading to improved flower and fruit production."}],
+[{  "name": "healthy apple",
+  "content": "Your apple tree looks healthy and vibrant. Keep up the good work with its care and maintenance."
+},
+{
+  "name": "Apple Black Rot",
+  "image":"0.jpg",
+  "content": "Remedy: To treat apple black rot, remove infected fruits and prune affected branches. Apply a fungicide recommended for black rot control. Maintain good orchard sanitation."
+},
+{
+  "name": "Apple Cedar Rust",
+  "image":"0.jpg",
+  "content": "Remedy: For apple cedar rust, remove infected galls, which are the orange-brown lesions on twigs or branches. Apply fungicides recommended for cedar rust control."
+},
+{
+  "name": "Apple Scab",
+  "image":"0.jpg",
+  "content": "Remedy: To manage apple scab, prune infected branches, rake up and destroy fallen leaves, and apply fungicides suitable for scab control. Ensure good air circulation around the tree."
+},
+{
+  "name": "Healthy Blueberry",
+  "image":"1.jpg",
+  "content": "Your blueberry plant is looking healthy and thriving. Continue providing it with proper care and enjoy the delicious berries it produces."
+},
+{
+  "name": "Healthy Cherry",
+  "image":"2.jpg",
+  "content": "Congratulations on maintaining a healthy cherry tree. May it continue to bear abundant and flavorful cherries for you."
+},
+{
+  "name": "Cherry Powdery Mildew",
+  "image":"2.jpg",
+  "content": "Remedy: For cherry powdery mildew, prune infected branches, ensure good air circulation, and apply fungicides appropriate for powdery mildew control. Maintain proper tree nutrition."
+},
+{
+  "name": "Healthy Corn",
+  "image":"3.jpg",
+  "content": "Your corn plants are healthy and robust. With proper watering and fertilization, you can expect a bountiful harvest."
+},
+{
+  "name": "Corn Cercospora Leaf Spot",
+  "image":"3.jpg",
+  "content": "Remedy: To manage corn cercospora leaf spot, rotate crops, remove and destroy infected leaves, and apply fungicides suitable for cercospora leaf spot control."
+},
+{
+  "name": "Corn Common Rust",
+  "image":"3.jpg",
+  "content": "Remedy: For corn common rust, plant resistant varieties, remove and destroy infected leaves, and apply appropriate fungicides to control the disease."
+},
+{
+  "name": "Northern Corn Leaf Blight",
+  "image":"3.jpg",
+  "content": "Remedy: To control northern corn leaf blight, apply appropriate fungicides, avoid excessive nitrogen fertilization, and ensure proper crop rotation."
+},
+{
+  "name": "Healthy Grape",
+  "image":"4.jpg",
+  "content": "Congratulations on maintaining healthy grapevines. With proper care and pruning, you can expect a bountiful grape harvest."
+},
+{
+  "name": "Grape Black Rot",
+  "image":"4.jpg",
+  "content": "Remedy: To manage grape black rot, remove and destroy infected grapes and leaves, prune infected canes, and apply suitable fungicides for black rot control."
+},
+{
+  "name": "Grape Esca / Black Measles",
+  "image":"4.jpg",
+  "content": "Remedy: For grape esca/black measles, prune and destroy infected wood, apply protective fungicides during pruning, and maintain proper vineyard hygiene."
+},
+{
+  "name": "Grape Leaf Blight / Isariopsis Leaf Spot",
+  "image":"4.jpg",
+  "content": "Remedy: To control grape leaf blight or Isariopsis leaf spot, remove and destroy infected leaves, maintain good air circulation, and apply fungicides recommended for leaf blight control."
+},
+{
+  "name": "Orange Haunglongbing / Citrus Greening",
+  "image":"5.jpg",
+  "content": "Unfortunately, there is currently no known cure for orange haunglongbing or citrus greening. If your orange tree is infected, it is best to remove it to prevent the disease from spreading to other trees."
+},
+{
+  "name": "Healthy Peach",
+  "image":"6.jpg",
+  "content": "Your peach tree looks healthy and vibrant. Wishing you a fruitful harvest of delicious peaches."
+},
+{
+  "name": "Peach Bacterial Spot",
+  "image":"6.jpg",
+  "content": "Remedy: To manage peach bacterial spot, prune and destroy infected branches, apply copper-based sprays during the dormant season, and promote good tree vigor."
+},
+{
+  "name": "Healthy Pepperbell",
+  "image":"7.jpg",
+  "content": "Congratulations on maintaining healthy pepperbell plants. With proper care and pollination, you can enjoy a bountiful harvest of flavorful peppers."
+},
+{
+  "name": "Pepper Bell Bacterial Spot",
+  "image":"7.jpg",
+  "content": "Remedy: For pepper bell bacterial spot, avoid overhead watering, apply copper-based sprays, and remove and destroy infected plants or plant parts."
+},
+{
+  "name": "Healthy Potato",
+  "image":"8.jpg",
+  "content": "Your potato plants are healthy and thriving. Continue to provide them with proper care, and you'll soon be enjoying a harvest of delicious potatoes."
+},
+{
+  "name": "Potato Early Blight",
+  "image":"8.jpg",
+  "content": "Remedy: To manage potato early blight, practice crop rotation, remove and destroy infected leaves, and apply appropriate fungicides for early blight control."
+},
+{
+  "name": "Potato Late Blight",
+  "image":"8.jpg",
+  "content": "Remedy: For potato late blight, apply appropriate fungicides, practice good crop rotation, and remove and destroy infected plants to control the disease."
+},
+{
+  "name": "Healthy Raspberry",
+  "image":"9.jpg",
+  "content": "Congratulations on maintaining healthy raspberry plants. With proper care and maintenance, you'll soon be enjoying a bountiful harvest of juicy raspberries."
+},
+{
+  "name": "Healthy Soybean",
+  "image":"10.jpg",
+  "content": "Your soybean plants are healthy and robust. With proper care and suitable weather conditions, you can expect a successful soybean harvest."
+},
+{
+  "name": "Squash Powdery Mildew",
+  "image":"11.jpg",
+  "content": "Remedy: To manage squash powdery mildew, water plants at the base, maintain good air circulation, apply fungicides recommended for powdery mildew control, and remove heavily infected leaves."
+},
+{
+  "name": "Healthy Strawberry",
+  "image":"12.jpg",
+  "content": "Congratulations on maintaining healthy strawberry plants. May they bear plenty of sweet and succulent strawberries for you to enjoy."
+},
+{
+  "name": "Strawberry Leaf Scorch",
+  "image":"12.jpg",
+  "content": "Remedy: For strawberry leaf scorch, remove infected leaves, provide adequate water, practice good weed control, and apply appropriate fungicides if necessary."
+},
+{
+  "name": "Healthy Tomato",
+  "image":"13.jpg",
+  "content": "Your tomato plants are healthy and thriving. With proper care and attention, they will reward you with a bountiful harvest of delicious tomatoes."
+},
+{
+  "name": "Tomato Bacterial Spot",
+  "image":"13.jpg",
+  "content": "Remedy: To manage tomato bacterial spot, practice crop rotation, avoid overhead watering, remove infected plants, and apply appropriate copper-based sprays."
+},
+{
+  "name": "Tomato Early Blight",
+  "image":"13.jpg",
+  "content": "Remedy: For tomato early blight, remove infected leaves, promote good air circulation, mulch around plants, and apply appropriate fungicides to control the disease."
+},
+{
+  "name": "Tomato Late Blight",
+  "image":"13.jpg",
+  "content": "Remedy: To control tomato late blight, remove and destroy infected plants, apply appropriate fungicides, practice good garden sanitation, and avoid overhead watering."
+},
+{
+  "name": "Tomato Leaf Mold",
+  "image":"13.jpg",
+  "content": "Remedy: For tomato leaf mold, maintain good air circulation, avoid excessive humidity, water plants at the base, and apply appropriate fungicides if necessary."
+},
+{
+  "name": "Tomato Mosaic Virus",
+  "image":"13.jpg",
+  "content": "Remedy: Unfortunately, there is no cure for tomato mosaic virus. If your plants are infected, it is best to remove and destroy them to prevent the spread of the virus to other tomatoes."
+},
+{
+  "name": "Tomato Septoria Leaf Spot",
+  "image":"13.jpg",
+  "content": "Remedy: To manage tomato septoria leaf spot, remove infected leaves, avoid overhead watering, provide good air circulation, and apply appropriate fungicides for septoria leaf spot control."
+},
+{
+  "name": "Tomato Spider Mites",
+  "image":"13.jpg",
+  "content": "Remedy: For tomato spider mites, spray plants with water to dislodge the mites, apply appropriate miticides, and maintain good garden hygiene."
+},
+{
+  "name": "Tomato Target Spot",
+  "image":"13.jpg",
+  "content": "Remedy: To control tomato target spot, remove infected leaves, promote good air circulation, and apply appropriate fungicides recommended for target spot control."
+},
+{
+  "name": "Tomato Yellow Leaf Curl Virus",
+  "image":"13.jpg",
+  "content": "Remedy: Unfortunately, there is no cure for tomato yellow leaf curl virus. If your plants are infected, it is best to remove and destroy them to prevent the spread of the virus to other tomatoes."
+}
+]
+]

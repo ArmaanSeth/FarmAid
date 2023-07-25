@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FarmAid</title>
+  <link rel="icon" href="images/icon.ico">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/0c8a42cb65.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="dark-text">
+        <div class="collapse" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-8 col-md-7 py-4 ">
+                <h4>About</h4>
+                <p>Farm Aid is a website that utilizes various machine learning models to aid farmers in their harvesting process. This website provides valuable information to farmers regarding which crop to grow, which fertilizer to use, and what diseases the crops may have.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+                <a href="#footer" class="dark-text"><h4 >Contact</h4></a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="navbar shadow-sm dark-text">
+        <div class="container">
+            <a href="/" class="d-flex align-items-center dark-text">
+            <i class="fa-sharp fa-solid fa-leaf icon"></i>
+            <strong  class="title-name">Farm Aid</strong>
+            </a>
+            <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <!-- INTRO -->
+    <div class="py-5 text-center light-text">
+        <div class="py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <img src="images/11.png" style="height: 200px;">
+                <h1 class="fw-light text">Disease Prediction</h1>
+                <p class="text">The AI model you're referring to is a sophisticated image classification system specifically designed to analyze images of plant leaves. This model employs advanced machine learning techniques to accurately identify and predict diseases affecting plants based on their leaf appearance. It has been trained on a diverse dataset consisting of images representing various diseases and healthy states across 38 different plant classes.     When presented with an image of a plant leaf, the AI model utilizes its learned knowledge to assign it to one of the 38 classes. These classes encompass a range of plant species, including apples, blueberries, cherries, corn, grapes, oranges, peaches, pepper bells, potatoes, raspberries, soybeans, squash, strawberries, and tomatoes. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="container container-form needs-validation" novalidate>    
+        <div class="form-title">
+            <h5>Upload the leaf image to predict plant disease!!!</h5>
+        </div>
+        <hr>
+        <form id="form" action="/disease_prediction" method="post" enctype="multipart/form-data">
+        <div class="card-footer" style="text-align: right;">
+            <input type="file" name="image" accept="image/*" id="image" class="image">
+            <button class="btn btn-primary" type="submit">Predict</button>
+        </div>
+        </form>
+    </div>
+
+    <!-- RESULT -->
+    <div class="container-fluid" id="res" style="text-align: center;">
+    <h1>Prediction</h1>
+    <div class="container-fluid container-result">
+        <div class="row">
+            <div class="col textbox">
+                <h1 class="crop">ERROR</h1 >
+                <!-- <p class="acc"></p> -->
+                <div class="content"></div>
+            </div>
+            <div class="col imgbox">
+                <img class="res-img" src="images/crop/1.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- FOOTER   -->
+    <footer id="footer" class="text-body-secondary py-3 light-text">
+    <div class="logo light-text">
+        <i class="fa-lg fa-brands fa-github" style="color: aliceblue;"></i><p class="logo-title">-GitHub</p>
+        <i class="fa-lg fa-brands fa-linkedin" style="color: aliceblue;"></i><p class="logo-title">-Linkedin</p>
+        <i class="fa-lg fa-sharp fa-solid fa-envelope" style="color: aliceblue;"></i><p class="logo-title">-Gmail</p>
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+    <!-- <script src="script2.js"></script> -->
+</body>
+</html>
