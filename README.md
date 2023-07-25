@@ -1,6 +1,6 @@
 # Farm Aid - Helping Farmers in Crop Harvesting
 
-![Farm Aid Logo](https://i.ibb.co/S33JFx7/9.png)
+<a href='https://www.linkpicture.com/view.php?img=LPic64bfc870b7a601267010161'><img src='https://www.linkpicture.com/q/9_123.png' type='image'></a>
 
 ## Introduction
 
