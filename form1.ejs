@@ -1,0 +1,75 @@
+<%-include("views/header")-%>
+
+    <!-- INTRO -->
+    <div class="py-5 text-center light-text">
+        <div class="py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <img src="images/11.png" style="height: 200px;">
+                <h1 class="fw-light text">Crop Recommendation</h1>
+                <p class="text">Our crop recommendation model is an intelligent system that assists farmers in making informed decisions about which crops to cultivate based on various soil properties and environmental factors. This model takes into account essential parameters such as pH level, nitrogen content, phosphorous content, potassium content, humidity, and temperature to provide accurate crop recommendations.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="container container-form needs-validation" novalidate>    
+        <div class="form-title">
+            <h5>Enter the following details!!!</h5>
+        </div>
+        <hr>
+        <form id="form">
+        <div class="card-footer" style="text-align: right;">
+            <div class="fetaure">
+                <div class="label"><p>Nitrogen:</p></div>
+                <div class="input"><input required name="n" id="n" class="form-control" type="number" step="0.1" placeholder="ratio of Nitrogen content in soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="phosphorous">Phosphorous:</label></div>
+                <div class="input"><input required name="p" id="p" class="form-control" type="number" step="0.1" placeholder="ratio of Phosphorous content in soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="potassium">Potassium:</label></div>
+                <div class="input"><input required name="k" id="k" class="form-control" type="number" step="0.1" placeholder="ratio of Potassium content in soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="temp">Temperature:</label></div>
+                <div class="input"><input required name="temp" id="temp" class="form-control" type="number" step="0.01" placeholder=" temperature in degree Celsius"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="humidity">Humidity:</label></div>
+                <div class="input"><input required name="humidity" id="humidity" class="form-control" type="number" step="0.01" placeholder="relative humidity in %"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="ph">pH:</label></div>
+                <div class="input"><input required name="ph" id="ph" class="form-control" type="number" step="0.01" placeholder="pH value of soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="rain">rainfall:</label></div>
+                <div class="input"><input required name="rain" id="rain" class="form-control" type="number" step="0.01" placeholder="rainfall in mm"></div>
+            </div>
+            <button class="btn btn-primary" type="submit">Predict</button>
+        </div>
+        </form>
+    </div>
+
+    <!-- RESULT -->
+    <div class="container-fluid" id="res" style="text-align: center;">
+    <h1>Prediction</h1>
+    <div class="container-fluid container-result">
+        <div class="row">
+            <div class="col textbox">
+                <h1 class="crop">ERROR</h1 >
+                <!-- <p class="acc"></p> -->
+                <div class="content"></div>
+            </div>
+            <div class="col imgbox">
+                <img class="res-img" src="images/crop/1.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script1.js"></script>
+    <%-include("views/footer")-%>

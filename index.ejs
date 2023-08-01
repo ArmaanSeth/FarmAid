@@ -1,0 +1,117 @@
+<%-include("views/header")-%>
+
+  <!-- INTRO -->
+  <div class="py-5 text-center light-text">
+    <div class="py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <img src="images/9.png" style="height: 200px;">
+        <h1 class="fw-light text">FarmAid</h1>
+        <p class="text"> Farm Aid is motivated by a desire to support farmers and promote sustainable agriculture practices. By utilizing machine learning algorithms and data analysis, these websites can provide farmers with valuable insights and recommendations to optimize their crop yield and profitability while minimizing environmental impact.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+          <div class="col">
+            <a href="/crop_recommendation" style="text-decoration: none; color: black;">
+              <div><img class="card-img" src="images/8.png"></div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Crop Recommendation</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Farm Aid analyzes various factors such as soil quality and weather conditions to suggest the best crop for a particular area.</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="/disease_prediction" style="text-decoration: none; color: black;">
+              <div><img class="card-img" src="images/7.png"></div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Disease Prediction</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Farmers can now easily submit an image of a diseased leaf and receive an accurate prediction of which disease the plant is likely to have.</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="/fertilizer_recommendation" style="text-decoration: none; color: black;">
+              <div><img class="card-img" src="images/5.png"></div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Fertilizer Reccomendation</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Farm Aid also provides valuable insights into fertilization, analyzing soil quality data to recommend the best fertilizer.</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-center">
+          <div class="col">
+            <a href="/form4" style="text-decoration: none; color: black;">
+              <div><img class="card-img" src="images/5.png"></div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Crop Recommendation</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Farm Aid analyzes various factors such as soil quality and weather conditions to suggest the best crop for a particular area.</small>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="/form5" style="text-decoration: none; color: black;">
+              <div><img class="card-img" src="images/7.png"></div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Potato Disease Prediction</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Farmers can now easily submit an image of a potato leaf and receive an accurate prediction of which disease the plant is likely to have.</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>  
+      </div> -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- About   -->
+  <div class="py-5 text-center light-text">
+    <div class="py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <img src="images/10.png" class="leaf-img">
+        <h1 class="fw-light text-2">Motive</h1>
+        <p class="text" style="padding-top: 20px;">Farm Aid's use of machine learning algorithms provides farmers with valuable insights and recommendations to optimize their crop yield and profitability. By leveraging the power of data analysis and machine learning, Farm Aid is helping farmers to make informed decisions about their farming practices and improve their crop yield.</p>
+      </div>
+    </div>
+  </div>
+
+  <%-include("views/footer")-%>

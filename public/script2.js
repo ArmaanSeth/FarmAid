@@ -35,7 +35,8 @@
 fetch('/result.json')
     .then((response)=>response.json())
     .then((response)=>{
-        pred=response.prediction
+        mapping=[31,28,11,15,24,25,20,10,30,34,8,27,16,3,37,29,1,4,6,17,2,36,18,14,22,33,26,0,12,21,5,9,13,23,32,35,19,7]
+        pred=mapping[response.prediction]
         $(".container-form").hide()
         $("#res").show()
         $('html, body').animate({

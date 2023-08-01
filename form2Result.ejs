@@ -1,0 +1,48 @@
+<%-include("views/header")-%>
+
+    <!-- INTRO -->
+    <div class="py-5 text-center light-text">
+        <div class="py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <img src="images/11.png" style="height: 200px;">
+                <h1 class="fw-light text">Disease Prediction</h1>
+                <p class="text">The AI model you're referring to is a sophisticated image classification system specifically designed to analyze images of plant leaves. This model employs advanced machine learning techniques to accurately identify and predict diseases affecting plants based on their leaf appearance. It has been trained on a diverse dataset consisting of images representing various diseases and healthy states across 38 different plant classes.     When presented with an image of a plant leaf, the AI model utilizes its learned knowledge to assign it to one of the 38 classes. These classes encompass a range of plant species, including apples, blueberries, cherries, corn, grapes, oranges, peaches, pepper bells, potatoes, raspberries, soybeans, squash, strawberries, and tomatoes. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <!-- <div class="container container-form needs-validation" novalidate>    
+        <div class="form-title">
+            <h5>Upload the leaf image to predict plant disease!!!</h5>
+        </div>
+        <hr>
+        <form id="form" action="/disease_prediction" method="post" enctype="multipart/form-data">
+        <div class="card-footer" style="text-align: right;">
+            <input type="file" name="image" accept="image/*" id="image" class="image">
+            <button class="btn btn-primary" type="submit">Predict</button>
+        </div>
+        </form>
+    </div> -->
+
+    <!-- RESULT -->
+    <div class="container-fluid" id="res" style="text-align: center;">
+    <h1>Prediction</h1>
+    <div class="container-fluid container-result">
+        <div class="row">
+            <div class="col textbox">
+                <h1 class="crop">ERROR</h1 >
+                <!-- <p class="acc"></p> -->
+                <div class="content"></div>
+            </div>
+            <div class="col imgbox">
+                <img class="res-img" src="images/crop/1.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script2.js"></script>
+    <%-include("views/footer")-%>

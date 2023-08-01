@@ -23,6 +23,7 @@ body{
 }
 
 .light-text{
+    text-decoration: none;
     width: 100%;
     background-color: #2E4F4F;
     color: aliceblue;

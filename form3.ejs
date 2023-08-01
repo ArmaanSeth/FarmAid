@@ -1,0 +1,103 @@
+<%-include("views/header")-%>
+
+    <!-- INTRO -->
+    <div class="py-5 text-center light-text">
+        <div class="py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <img src="images/11.png" style="height: 200px;">
+                <h1 class="fw-light text">Fertilizer Recommendation</h1>
+                <p class="text"> Are you looking for the perfect fertilizer to enhance the growth and yield of your crops? Look no further. Our advanced model is designed to provide personalized fertilizer recommendations based on a wide range of factors, including temperature, humidity, moisture, soil type, and crop type. Here's how it works: Our website offers a user-friendly interface where you can input specific details about your farming environment. You provide information such as the current temperature, humidity level, moisture content, soil type, and the type of crop you are cultivating. With just a few clicks, our AI model springs into action, utilizing its vast knowledge base and comprehensive training data to analyze your inputs.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="container container-form needs-validation" novalidate>    
+        <div class="form-title">
+            <h5>Enter the following details!!!</h5>
+        </div>
+        <hr>
+        <form id="form">
+        <div class="card-footer" style="text-align: right;">
+            <div class="fetaure">
+                <div class="label"><label for="temp">Temperature:</label></div>
+                <div class="input"><input required name="temp" id="temp" class="form-control" type="number" step="0.01" placeholder=" temperature in degree Celsius"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="humidity">Humidity:</label></div>
+                <div class="input"><input required name="humidity" id="humidity" class="form-control" type="number" step="0.01" placeholder="relative humidity in %"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="moisture">Moisture:</label></div>
+                <div class="input"><input required name="m" id="m" class="form-control" type="number" step="0.1" placeholder="moisture content in soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="temp">Soil Type:</label></div>
+                <!-- <div class="input"><input required name="temp" id="temp" class="form-control" type="number" step="0.01" placeholder=" temperature in degree Celsius"></div> -->
+                <select class="input form-select select" aria-label="Default select example" id="soilType">
+                    <!-- <option selected>Soil Type:</option> -->
+                    <option value="0">Sandy</option>
+                    <option value="1">Loamy</option>
+                    <option value="2">Black</option>
+                    <option value="3">Red</option>
+                    <option value="4">Clayey</option>
+                </select>
+            
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="temp">Crop Type:</label></div>
+                <!-- <div class="input"><input required name="temp" id="temp" class="form-control" type="number" step="0.01" placeholder=" temperature in degree Celsius"></div> -->
+                <select class="input form-select select" aria-label="Default select example" id="cropType">
+                    <!-- <option selected>Crop Type:</option> -->
+                    <option value="0">Maize</option>
+                    <option value="1">Sugarcane</option>
+                    <option value="2">Cotton</option>
+                    <option value="3">Tobacco</option>
+                    <option value="4">Paddy</option>
+                    <option value="5">Barley</option>
+                    <option value="6">Wheat</option>
+                    <option value="7">Millets</option>
+                    <option value="8">Oil Seeds</option>
+                    <option value="9">Pulses</option>
+                    <option value="10">Ground Nuts</option>
+                </select>
+            
+            </div>
+            <div class="fetaure">
+                <div class="label"><p>Nitrogent:</p></div>
+                <div class="input"><input required name="n" id="n" class="form-control" type="number" step="0.1" placeholder="ratio of Nitrogen content in soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="phosphorous">Phosphorous:</label></div>
+                <div class="input"><input required name="p" id="p" class="form-control" type="number" step="0.1" placeholder="ratio of Phosphorous content in soil"></div>
+            </div>
+            <div class="fetaure">
+                <div class="label"><label for="potassium">Potassium:</label></div>
+                <div class="input"><input required name="k" id="k" class="form-control" type="number" step="0.1" placeholder="ratio of Potassium content in soil"></div>
+            </div>
+            <button class="btn btn-primary" type="submit">Predict</button>
+        </div>
+        </form>
+    </div>
+
+    <!-- RESULT -->
+    <div class="container-fluid" id="res" style="text-align: center;">
+    <h1>Prediction</h1>
+    <div class="container-fluid container-result">
+        <div class="row">
+            <div class="col textbox">
+                <h1 class="crop">ERROR</h1 >
+                <!-- <p class="acc"></p> -->
+                <div class="content"></div>
+            </div>
+            <div class="col imgbox">
+                <img class="res-img" src="images/crop/1.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script3.js"></script>
+    <%-include("views/footer")-%>
